@@ -10,7 +10,7 @@
     "build": "tsc"
   },
   "author": "BenjaVR",
-  "license": "GNU GPLv3",
+  "license": "UNLICENSED",
   "devDependencies": {
     "npm-run-all": "4.1.5",
     "rimraf": "3.0.2",
