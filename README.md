@@ -1,3 +1,3 @@
-# Typescript-Boilerplate
+# My project
 
-Boilerplate project for simple Node project with Typescript.
+My project description.
