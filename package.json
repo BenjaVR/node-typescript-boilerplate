@@ -3,16 +3,20 @@
   "description": "Template project for Node.js projects written in TypeScript.",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "BenjaVR",
-  "main": "build/main.js",
+  "author": "BVR Code",
+  "main": "build/index.js",
   "scripts": {
-    "start": "node build/main.js",
+    "dev": "nodemon",
+    "start": "node build/index.js",
     "prestart": "npm run build",
-    "build": "tsc --build --clean",
+    "build": "tsc",
     "prebuild": "rimraf build"
   },
+  "dependencies": {},
   "devDependencies": {
+    "nodemon": "2.0.7",
     "rimraf": "3.0.2",
+    "ts-node": "9.1.1",
     "typescript": "4.2.4"
   }
 }
