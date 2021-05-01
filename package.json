@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "license": "MIT",
   "author": "BVR Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenjaVR/node-typescript-template"
+  },
   "main": "build/index.js",
   "scripts": {
     "dev": "nodemon",
