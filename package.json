@@ -9,6 +9,9 @@
     "url": "https://github.com/BenjaVR/node-typescript-template"
   },
   "main": "build/index.js",
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "dev": "nodemon",
     "prestart": "npm run build",
@@ -17,9 +20,6 @@
     "prebuild": "rimraf build",
     "build": "tsc",
     "test": "jest"
-  },
-  "engines": {
-    "node": ">=14"
   },
   "dependencies": {},
   "devDependencies": {
