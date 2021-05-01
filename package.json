@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "node-typescript-template",
   "description": "Template project for Node.js projects written in TypeScript.",
   "version": "0.1.0",
   "license": "MIT",
