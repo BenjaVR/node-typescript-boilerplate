@@ -1,6 +1,6 @@
-# My project
+# Node.js + TypeScript template
 
-Boilerplate for Node.js projects written in TypeScript.
+Template project for Node.js projects written in TypeScript.
 
 ## Things to change when using this template
 
