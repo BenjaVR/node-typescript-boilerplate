@@ -2,6 +2,10 @@
 
 Template project for Node.js projects written in TypeScript.
 
+## What's included?
+
+**TODO**
+
 ## Things to change when using this template
 
 - The project name, author, description ... in the [package.json](./package.json).
