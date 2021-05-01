@@ -7,18 +7,22 @@
   "main": "build/index.js",
   "scripts": {
     "dev": "nodemon",
-    "start": "node build/index.js",
     "prestart": "npm run build",
+    "start": "node build/index.js",
+    "prebuild": "rimraf build",
     "build": "tsc",
-    "prebuild": "rimraf build"
+    "test": "jest"
   },
   "engines": {
     "node": ">=14"
   },
   "dependencies": {},
   "devDependencies": {
+    "@types/jest": "26.0.23",
+    "jest": "26.6.3",
     "nodemon": "2.0.7",
     "rimraf": "3.0.2",
+    "ts-jest": "26.5.5",
     "ts-node": "9.1.1",
     "typescript": "4.2.4"
   }

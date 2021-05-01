@@ -9,10 +9,9 @@
     "composite": true,
     "strict": true,
     "moduleResolution": "node",
-    "baseUrl": "src",
     "paths": {
       "@/*": [
-        "src/*"
+        "./src/*"
       ]
     },
     "allowSyntheticDefaultImports": true,
