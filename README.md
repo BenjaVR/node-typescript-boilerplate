@@ -17,4 +17,6 @@ Template project for Node.js projects written in TypeScript.
 
 - The name + year of the [LICENSE](./LICENSE.md) file (or replace it completely to another type of license, check https://choosealicense.com).
 
+- You probaly want to remove the [update-deps.yml](./.github/workflows/update-deps.yml) actions, since this is only used by this template repository to update the dependencies.
+
 - Replace this [README](./README.md) file.

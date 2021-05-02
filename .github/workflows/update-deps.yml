@@ -1,0 +1,20 @@
+name: Update Dependencies
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2.1.5
+      - run: npm install
+      - run: npx npm-check-updates -u
+      - run: npm install
+      - run:
+          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          git pull github ${GITHUB_REF} --ff-only
+          git add .
+          git commit -m "Updated all dependencies to latest version"
+          git push github HEAD:${GITHUB_REF}
