@@ -12,9 +12,7 @@ jobs:
       - run: npm install
       - run: npx npm-check-updates -u
       - run: npm install
-      - run:
-          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
-          git pull github ${GITHUB_REF}
-          git add .
-          git commit -m "Updated all dependencies to latest version"
-          git push github HEAD:${GITHUB_REF}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updated all dependencies to the latest version
+          push_options: '--force'
