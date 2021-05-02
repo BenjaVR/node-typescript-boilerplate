@@ -21,7 +21,8 @@
     "lint": "eslint src/**/*.ts",
     "test": "jest",
     "prepare": "husky install",
-    "hook:pre-push": "run-p lint build test"
+    "hook:pre-push": "run-p lint build test",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {},
   "devDependencies": {
