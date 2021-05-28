@@ -18,10 +18,8 @@
     "prestart": "npm run build",
     "build": "tsc",
     "prebuild": "rimraf build",
-    "build:staged": "tsc --noEmit",
     "lint": "eslint src/**/*.ts",
     "test": "jest",
-    "test:staged": "jest -o",
     "prepare": "husky install"
   },
   "dependencies": {},

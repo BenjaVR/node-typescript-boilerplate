@@ -2,10 +2,10 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # Verify the project builds without errors.
-npm run build:staged
+npm run build -- --noEmit
 
 # Lint only the staged files.
 npx lint-staged
 
 # Run unit tests related to changes on the staged files.
-npm run test:staged
+npm test -- -o
