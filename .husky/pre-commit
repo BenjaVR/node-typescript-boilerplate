@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Verify the project builds without errors.
+npm run build:staged
+
+# Lint only the staged files.
+npx lint-staged
+
+# Run unit tests related to changes on the staged files.
+npm run test:staged
