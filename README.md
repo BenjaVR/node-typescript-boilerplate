@@ -6,17 +6,13 @@
 
 Template project for Node.js projects written in TypeScript.
 
-## Why?
-
-¯\\\_(ツ)\_/¯
+## Why? ¯\\\_(ツ)\_/¯
 
 I was tired spending the first hour(s) of every project on configuration (basically copy/pasting relevant parts of my last project).
 
 Now I can immediately start working on my Next Big Idea™, and I hope you can do the same!
 
-## What's included?
-
-(❁´◡`❁)
+## What's included? (❁´◡`❁)
 
 - 💪 **Typescript** (duh?!).
 
@@ -36,17 +32,13 @@ Now I can immediately start working on my Next Big Idea™, and I hope you can d
 
 - 👩‍⚖️ Forget the legal issues with a **LICENSE.md**.
 
-## Contribute
-
-༼ つ ◕_◕ ༽つ
+## Contribute ༼ つ ◕_◕ ༽つ
 
 Do you have any questions, bug reports or feature requests? [Make sure to let me know](https://github.com/BenjaVR/node-typescript-template/issues/new)!
 
 Pull requests to add some neat new features are always welcome. As long as they are useful.
 
-## Things to change when using this template
-
-(╯°□°）╯︵ ┻━┻)
+## Using this template (╯°□°）╯︵ ┻━┻)
 
 - [ ] The project name, author, description ... in the [package.json](./package.json).
 
