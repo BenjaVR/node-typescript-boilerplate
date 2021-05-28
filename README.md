@@ -1,4 +1,4 @@
-![CI status](https://github.com/BenjaVR/node-typescript-template/actions/workflows/main.yml/badge.svg)
+![CI status](https://github.com/BenjaVR/node-typescript-template/actions/workflows/ci.yml/badge.svg)
 
 # Node.js + TypeScript template
 
