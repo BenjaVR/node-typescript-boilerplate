@@ -1,8 +1,6 @@
 ![CI status](https://github.com/BenjaVR/node-typescript-template/actions/workflows/ci.yml/badge.svg)
 
-# Node.js + TypeScript template
-
-(⌐■_■)
+# Node.js + TypeScript template (⌐■_■)
 
 Template project for Node.js projects written in TypeScript.
 
