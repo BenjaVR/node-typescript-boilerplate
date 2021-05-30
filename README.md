@@ -1,6 +1,6 @@
 ![CI status](https://github.com/BenjaVR/node-typescript-template/actions/workflows/ci.yml/badge.svg)
 
-# Node.js + TypeScript template (⌐■_■)
+# Node.js + TypeScript template
 
 Template project for Node.js projects written in TypeScript.
 
@@ -10,7 +10,7 @@ I was tired spending the first hour(s) of every project on configuration (basica
 
 Now I can immediately start working on my Next Big Idea™, and I hope you can do the same!
 
-## What's included? (❁´◡`❁)
+## What's included? (⌐■_■)
 
 - 💪 **Typescript** (duh?!).
 
