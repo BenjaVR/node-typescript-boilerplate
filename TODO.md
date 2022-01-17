@@ -1,0 +1,15 @@
+- [x] Implement server with Fastify
+  - [ ] Server-specific unit test example
+- [ ] Add Docker support to front-end, back-end and database
+- [ ] Add database support using Prisma
+- [ ] Add database migration support using dbmate
+- [ ] Add parcel + react web app using back-end
+  - [ ] i18n
+  - [ ] React UI test
+  - [ ] Hook test
+- [x] Shared prettier config
+- [x] Shared eslint config
+- [x] Use the shared lib
+- [ ] WebStorm + VSCode run configurations (close related issue on GitHub for this)
+- [ ] Check if update tool works for sub packages in a workspace
+- [ ] Rename repo: fullstack-typescript-template
