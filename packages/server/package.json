@@ -2,18 +2,18 @@
   "name": "@my-app/server",
   "description": "Server with API for my app.",
   "private": true,
-  "version": "0.1.0",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "start": "node build/index.js",
     "prestart": "npm run build",
     "build": "tsc",
     "prebuild": "rimraf build",
-    "lint": "eslint packages/lib/src/**/*.ts",
+    "lint": "eslint src/**/*.{ts,tsx}",
     "typecheck": "tsc --noEmit",
     "test": "jest"
   },
   "dependencies": {
+    "@my-app/lib": "latest",
     "fastify": "3.25.3",
     "fastify-autoload": "3.10.0",
     "fastify-plugin": "3.0.0"
@@ -21,13 +21,8 @@
   "devDependencies": {
     "@types/jest": "27.4.0",
     "@types/node": "17.0.8",
-    "@typescript-eslint/eslint-plugin": "5.9.1",
-    "@typescript-eslint/parser": "5.9.1",
     "eslint": "8.6.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "4.0.0",
     "jest": "27.4.7",
-    "lint-staged": "12.1.7",
     "prettier": "2.5.1",
     "rimraf": "3.0.2",
     "ts-jest": "27.1.2",

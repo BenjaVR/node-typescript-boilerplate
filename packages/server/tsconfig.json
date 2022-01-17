@@ -3,11 +3,6 @@
   "compilerOptions": {
     "outDir": "build",
     "rootDir": "src",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    }
   },
   "include": [
     "./src"

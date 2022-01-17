@@ -2,19 +2,20 @@
 
 # Node.js + TypeScript template
 
-Template project for full-stack Node.js projects written in TypeScript.
+Template project for full-stack Node.js applications written in TypeScript.
 
 If you do not want the mono-repo experience, you can just use any of the [packages](./packages) and
 use that as a standalone application.
 
 ## What's included?
 
-- Example projects:
+- Example packages:
   - [API with Fastify](packages/server)
   - [Web app with React](packages/web)
   - [Library with some sample utilities, shared between client/server](packages/lib)
+  - [Prettier/eslint config used in all the other packages](packages/eslint-config)
 
-- All projects use:
+- All packages use:
   - TypeScript (type safety)
   - Jest (unit testing)
   - ESlint (linting)
@@ -43,5 +44,5 @@ use that as a standalone application.
 
 This project uses [NPM workspaces](https://docs.npmjs.com/cli/v8/using-npm/workspaces).
 
-To run npm commands in specific projects (e.g., installing a new dependency), use
+To run npm commands in a specific workspace/package (e.g., installing a new dependency), use
 the `-w <workspace>` suffix in your npm command. Example: `npm install react -w packages/web`.
