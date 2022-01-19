@@ -1,19 +1,10 @@
-import path from "path";
-import fastify from "fastify";
-import { fastifyAutoload } from "fastify-autoload";
+import buildServer from "./serverFactory";
 
-const server = fastify({ logger: true });
-
-// Global plugins with shared functionality.
-server.register(fastifyAutoload, {
-  dir: path.join(__dirname, "plugins"),
-  maxDepth: 1,
-  dirNameRoutePrefix: false,
-});
-// Scoped features containing e.g., routes.
-server.register(fastifyAutoload, {
-  dir: path.join(__dirname, "features"),
-  maxDepth: 1,
+const server = buildServer({
+  logger: {
+    level: "info",
+    prettyPrint: true,
+  },
 });
 
 server.listen(8080, (err, address) => {

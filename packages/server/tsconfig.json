@@ -2,9 +2,13 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "build",
-    "rootDir": "src",
+    "rootDirs": [
+      "integrationTests",
+      "src"
+    ],
   },
   "include": [
+    "./integrationTests",
     "./src"
   ],
   "exclude": [

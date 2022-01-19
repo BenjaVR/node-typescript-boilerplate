@@ -1,5 +1,9 @@
 {
   "preset": "ts-jest",
   "testEnvironment": "node",
-  "rootDir": "src"
+  "rootDir": ".",
+  "testMatch": [
+    "<rootDir>/src/**/*.test.ts",
+    "<rootDir>/integrationTests/**/*.test.ts"
+  ]
 }

@@ -15,6 +15,8 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     "import/order": ["error"],
+    "import/default": "off",
+    "import/no-unresolved": "off",
   },
   ignorePatterns: ["/build/**/*", ".eslintrc.js"],
 };

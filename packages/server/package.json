@@ -13,7 +13,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@my-app/lib": "latest",
     "fastify": "3.25.3",
     "fastify-autoload": "3.10.0",
     "fastify-plugin": "3.0.0"

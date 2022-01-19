@@ -1,5 +1,5 @@
 - [x] Implement server with Fastify
-  - [ ] Server-specific unit test example
+  - [x] Server-specific unit test example
 - [ ] Add Docker support to front-end, back-end and database
 - [ ] Add database support using Prisma
 - [ ] Add database migration support using dbmate
