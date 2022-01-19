@@ -3,19 +3,14 @@
   "description": "SPA for my app.",
   "private": true,
   "source": "src/index.html",
-  "targets": {
-    "default": {
-      "distDir": "./build"
-    }
-  },
   "browserslist": [
     "> 0.5%",
     "last 2 versions",
     "not dead"
   ],
   "scripts": {
-    "dev": "parcel",
-    "build": "parcel build",
+    "dev": "parcel --dist-dir build",
+    "build": "parcel build --dist-dir build",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "npm run lint -- --fix",
     "typecheck": "tsc --noEmit",
