@@ -6,12 +6,11 @@
     "packages/eslint-config",
     "packages/lib",
     "packages/server",
-    "packages/tsconfig",
     "packages/web"
   ],
   "scripts": {
-    "dev": "npm run dev --workspaces --if-present",
-    "start": "npm start --workspaces --if-present",
+    "dev": "node startAllDev.js",
+    "start": "node startAll.js",
     "build": "npm run build --workspaces --if-present",
     "typecheck": "npm run typecheck --workspaces --if-present",
     "lint": "npm run lint --workspaces --if-present",
@@ -20,6 +19,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "concurrently": "7.0.0",
     "husky": "7.0.4"
   },
   "engines": {
