@@ -1,10 +1,7 @@
 import buildServer from "./serverFactory";
 
 const server = buildServer({
-  logger: {
-    level: "info",
-    prettyPrint: true,
-  },
+  logger: true,
 });
 
 server.listen(8080, (err, address) => {
